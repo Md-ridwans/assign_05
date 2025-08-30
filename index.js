@@ -1,13 +1,12 @@
-// index.js
-// Emergency Service Directory - interaction logic
+
 document.addEventListener('DOMContentLoaded', () => {
-  // --- Config / State ---
+  
   let likeCount = 0;
   let copyCount = 0;
   let coins = 100; // initial coins
   let callHistory = []; // will hold { name, number, time }
 
-  // --- Topbar counter elements (likes = left, coins = middle, copy = right) ---
+  
   const topPs = document.querySelectorAll('.top-actions .top1 p');
   const likeCounterEl = topPs[0];   // show likes
   const coinCounterEl = topPs[1];   // show coins
