@@ -34,6 +34,13 @@ body {
   padding: 10px;
 }
 
+.text1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00a651;
+}
+
 .logo {
   display: flex;
   justify-content: center ;
